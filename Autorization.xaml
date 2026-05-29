@@ -1,0 +1,20 @@
+<Grid.ColumnDefinitions>
+    <ColumnDefinition Width="254*"/>
+    <ColumnDefinition Width="401*"/>
+</Grid.ColumnDefinitions>
+<Label Content="Логин" HorizontalAlignment="Left" Margin="40,88,0,0" VerticalAlignment="Top"/>
+    <Label Content="Пароль" HorizontalAlignment="Left" Margin="40,130,0,0" VerticalAlignment="Top"/>
+    <Label Content="Собери капчу" HorizontalAlignment="Left" Margin="406,60,0,0" VerticalAlignment="Top"/>
+    <Button Content="Войти" HorizontalAlignment="Left" Margin="68,172,0,0" VerticalAlignment="Top" Height="21" Width="80" Click="Button_Click"/>
+    <TextBox x:Name="TbLogin" HorizontalAlignment="Left" Margin="83,92,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+    <TextBox x:Name="TbPass" HorizontalAlignment="Left" Margin="83,134,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+    <Border  Tag="1" Height="50" Width="50" Background="LightGray" AllowDrop="True" DragEnter="Border_DragEnter" DragLeave="Border_DragLeave" Drop="Border_Drop" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="399,108,0,0" />
+    <Border Tag="2" Height="50" Width="50" Background="LightGray" AllowDrop="True" DragEnter="Border_DragEnter" DragLeave="Border_DragLeave" Drop="Border_Drop" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="449,108,0,0" />
+    <Border Tag="3" Height="50" Width="50" Background="LightGray" AllowDrop="True" DragEnter="Border_DragEnter" DragLeave="Border_DragLeave" Drop="Border_Drop" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="399,158,0,0" />
+    <Border  Tag="4" Height="50" Width="50" Background="LightGray" AllowDrop="True" DragEnter="Border_DragEnter" DragLeave="Border_DragLeave" Drop="Border_Drop" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="449,158,0,0"/>
+    <Image x:Name="Image1" Tag="1" MouseMove="MouseMove_Click" Width="50" Height="50"  Source="/Resources/1.png" Stretch="Fill" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="459,233,0,0"/>
+    <Image x:Name="Image2" Tag="2" MouseMove="MouseMove_Click" Width="50" Height="50"  Source="/Resources/2.png" Stretch="Fill" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="424,233,0,0"/>
+    <Image x:Name="Image3" Tag="3" MouseMove="MouseMove_Click" Width="50" Height="50"  Source="/Resources/3.png" Stretch="Fill" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="349,247,0,0"/>
+    <Image x:Name="Image4" Tag="4" MouseMove="MouseMove_Click" Width="50" Height="50" Source="/Resources/4.png" Stretch="Fill" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="312,247,0,0"/>
+
+</Grid>
