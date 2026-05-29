@@ -1,0 +1,3 @@
+<Grid>
+    <Frame x:Name="DesktopFrame"></Frame>
+</Grid>
