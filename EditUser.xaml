@@ -1,0 +1,12 @@
+<Grid>
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" MinHeight="200" MinWidth="200">
+        <Label Content="Логин"/>
+        <TextBox x:Name="tbLogin" Margin="5"/>
+        <Label Content="Логин"/>
+        <TextBox x:Name="tbPassword" Margin="5"/>
+        <Label Content="Роль"/>
+        <ComboBox x:Name="cbRoles" Margin="5"/>
+        <CheckBox x:Name="ckBan" Content="Блокировка пользователя" Margin="5"/>
+        <Button Content="Изменить пользователя" Margin="5" Click="Button_AddClick"/>
+    </StackPanel>
+</Grid>
